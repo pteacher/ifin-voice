@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content="HIVA demonstration for web-site audio-visual assitance"/>
+    <meta name="author" content="HIVA inc."/>
+    <title>HIVA</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="#page-top"><img src="assets/img/aiu_logo.png" alt="..."/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Меню
+            <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#services">Поступление<br>и программы</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Стоимость<br>и скидки</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">колледж<br>и специальности</a></li>
+                <li class="nav-item"><a class="nav-link" href="#procedures">процедуры<br>и документация</a></li>
+                <li class="nav-item"><a class="nav-link" href="#general">общая<br>информация</a></li>
+            </ul>
+
+        </div>
+        <div class="switch">
+            <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+            <label for="language-toggle" id="ru"></label>
+            <span class="on">RU</span>
+            <span class="off" id="eng">ENG</span>
+            <script>
+            const ru = document.getElementById('ru');
+
+            ru.addEventListener('click', function () {
+                window.location.href = 'index-eng.html';
+                console.log("SWITCH");
+            });
+        </script>
+        </div>
+    </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead darken-pseudo darken-with-text">
+    <div class="container">
+        <div class="masthead-heading text-uppercase">первый визуальный голосовой веб помощник
+        </div>
+        <div class="masthead-subheading">ДЛЯ МЕЖДУНАРОДНОГО УНИВЕРСИТЕТА АЛА-ТОО</div>
+        <a class="btn btn-primary btn-xl text-uppercase" href="#services">интересно</a>
+    </div>
+</header>
+<!-- Services-->
+<section class="page-section" id="services">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">поступление и программы</h2>
+            <h3 class="section-subheading text-muted"></h3>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary" style="color: #2c2454 !important;"></i>
+                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        </span>
+                <h4 class="my-3">Проходной балл</h4>
+                <p class="text-muted">Проходной балл, необходимый для поступления в вуз Международного университета
+                    Ала-Тоо, составляет сто десять (110) баллов по основному тесту.</p>
+            </div>
+            <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary" style="color: #2c2454 !important;"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                <h4 class="my-3">Вступительный тест</h4>
+                <p class="text-muted">Международный университет Ала-Тоо проводит внутреннее тестирование по английскому
+                    языку для определения уровня владения языком.</p>
+            </div>
+            <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary" style="color: #2c2454 !important;"></i>
+                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+                <h4 class="my-3">Перевод из других ВУЗов</h4>
+                <p class="text-muted">Студенты могут перевестись, но за исключением тех, кто учится на первом и
+                    последнем курсе текущего университета. Кроме того, при подаче заявления на перевод вам, как правило,
+                    необходимо предоставить академическую справку из вашего текущего учебного заведения.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Portfolio Grid-->
+<section class="page-section bg-light" id="portfolio">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Стоимость обучения и скидки</h2>
+            <h3 class="section-subheading text-muted">.</h3>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            Победители международных олимпиад
+                        </div>
+                        <div class="card-body">
+                            Студенты, занявшие призовые места (1, 2 или 3) на международных олимпиадах (физика, химия,
+                            математика, биология, информатика), могут воспользоваться скидкой 100%. Они имеют право
+                            подать заявление на любой факультет университета.
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            Скидки на вступление в университет по итогам государственного тестирования (ОРT)
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Набрав 219-240 баллов, вы получаете 100% скидку в любом отделе.</li>
+                                <li>Набрав 210-218 баллов, вы получаете скидку 75%.</li>
+                                <li>Набрав 200-209 баллов, вы получите скидку 50%.</li>
+                                <li>Набрав 175-199 баллов, вы получите скидку 25%.</li>
+                                <li>Набрав 156-174 балла, вы получите скидку 10%.</li>
+                                <li>Набрав 140-155 баллов, вы получаете скидку 5%.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            Особые достижения
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Выпускники с дипломом с отличием получают скидку 20%.</li>
+                                <li>Выпускники колледжа МУА с дипломом с отличием получают скидку 25%.</li>
+                                <li>Обладатели аттестата с отличием основного общего образования (9 класс) могут учиться
+                                    в колледже МУА со скидкой 10%.
+                                </li>
+                                <li>Выпускникам средней школы «Сапат» предоставляется скидка 20%.</li>
+                                <li>Занявшие 1 место в 11 классе конкурса «Робототехника», организованного НОО «Сапат»,
+                                    имеют право на скидку 20%.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            Особые обстоятельства
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Студенты, чьи родители скончались, могут воспользоваться скидкой 30% на документы.
+                                </li>
+                                <li>Студенты без матери или отца могут получить скидку 10% на документы.
+                                </li>
+                                <li>Скидка 10% предоставляется студентам из семей с 4 детьми и в возрасте до 22 лет.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            Примечания
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Студенты имеют право на только одну скидку. Скидки предоставляются при соблюдении
+                                определенных условий и требований. Существует лимит академической задолженности в
+                                размере 4; его превышение приводит к автоматическому прекращению действия скидки. Скидки
+                                не продлеваются после погашения академической задолженности в последующих семестрах.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- About-->
+<section class="page-section" id="about">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase" style="font-size: 2rem">Колледж и специальности</h2>
+            <!--            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+        </div>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"
+                                                 alt="..."/></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>1996</h4>
+                        <h4 class="subheading">Факультет Инженерии и Информатики</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Факультет предлагает ряд инновационных и
+                        комплексных программ для подготовки студентов к захватывающей карьере в области технологий и
+                        вычислений. Наш факультет стремится обеспечить высококачественное образование и создать прочную
+                        основу в инженерных и компьютерных дисциплинах.</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg"
+                                                 alt="..."/></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>1996</h4>
+                        <h4 class="subheading">Факультет Социальных Наук</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Факультет предлагает программы по нескольким
+                        направлениям, включая лингвистику, педагогику, филологию, психологию, международное право и
+                        журналистику. В этих программах особое внимание уделяется коммуникативным навыкам, культурной
+                        осведомленности и аналитическому мышлению, что позволяет студентам осмысленно заниматься
+                        гуманитарными и смежными дисциплинами.</p></div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg"
+                                                 alt="..."/></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>2000</h4>
+                        <h4 class="subheading">Факультет Экономики и Административных Наук</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Факультет предлагает программы по различным
+                        дисциплинам, включая международную экономику и бизнес, финансы и кредит, международные
+                        отношения, менеджмент. Эти программы созданы для подготовки студентов к успешной карьере в сфере
+                        бизнеса, экономики и административных должностей.</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg"
+                                                 alt="..."/></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>2013</h4>
+                        <h4 class="subheading">IT and Бизнес Колледж</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Наш колледж предлагает широкий спектр программ, в
+                        том числе программное обеспечение для компьютерных наук и систем автоматизации, экономику и
+                        бухгалтерский учет, маркетинг, а также компьютерные системы и комплексы. Эти программы
+                        предназначены для того, чтобы вооружить студентов навыками и знаниями, необходимыми для
+                        достижения успеха в выбранных ими областях.</p></div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg"
+                                                 alt="..."/></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>2016</h4>
+                        <h4 class="subheading">Факультет Медицины</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Факультет предлагает программы по двум основным
+                        направлениям: общая медицина и педиатрия. Эти программы дают студентам прочную основу в области
+                        медицинских наук, клинической практики и ухода за пациентами, гарантируя, что выпускники будут
+                        хорошо подготовлены к успешной карьере в сфере здравоохранения. Мы предоставляем современные
+                        лаборатории, симуляционные центры и возможности клинического обучения, которые позволяют
+                        студентам развивать практические навыки и получать реальный опыт в контролируемой среде. Эти
+                        помещения созданы для имитации реальных медицинских условий и повышения качества обучения
+                        студентов.</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <h4>
+                        Будь Частью
+                        <br/>
+                        Нашей
+                        <br/>
+                        Истории!
+                    </h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<hr style="border: 1px solid black; width: 60%; margin-left: auto; margin-right: auto;">
+<section>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="card mb-3">
+                    <div class="card-header">
+                        Преимущества поступления в наш университет
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            За хорошие результаты на вступительном экзамене в университет национального уровня
+                            предусмотрены скидки до 100%. На диплом с отличием предоставляется скидка 20%.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-header">
+                        Скидки для претендентов
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Абитуриентам доступны различные скидки в зависимости от достижений и обстоятельств. В их
+                            число входят скидки для победителей олимпиад, выпускников школ и людей с особыми семейными
+                            обстоятельствами. Студенты могут получить скидки от 5% до 100%.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-header">
+                        Стоимость обучения на степень бакалавра в области компьютерных наук и инженерии
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Стоимость обучения на степень бакалавра в области компьютерных наук и инженерии составляет
+                            2500 долларов в год.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-header">
+                        Стоимость обучения на степень бакалавра в области компьютерных наук и инженерии
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Стоимость обучения в магистратуре по педагогике составляет 1200 долларов в год.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Team-->
+<section class="page-section bg-light" id="team">
+    <div class="container">
+        <div class="text-center">
+            <br>
+            <h2 class="section-heading text-uppercase">руководство</h2>
+            <!--            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/1.png" alt="..."/>
+                    <h4>Жылдызбек Жакшылыков</h4>
+                    <p class="text-muted">Ректор</p>
+                    <!--                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>-->
+                    <!--                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>-->
+                    <!--                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>-->
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/2_.jpg" alt="..."/>
+                    <h4>Салидин Калдыбаев</h4>
+                    <p class="text-muted">Проректор</p>
+                    <!--                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>-->
+                    <!--                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>-->
+                    <!--                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>-->
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/3.png" alt="..."/>
+                    <h4>Рустам Умаров</h4>
+                    <p class="text-muted">Проректор</p>
+                    <!--                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>-->
+                    <!--                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>-->
+                    <!--                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>-->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--            <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>-->
+        </div>
+    </div>
+</section>
+<!-- Clients-->
+<!--<div class="py-5">-->
+<!--    <div class="container">-->
+<!--        <div class="row align-items-center">-->
+<!--            <div class="col-md-3 col-sm-6 my-3">-->
+<!--                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>-->
+<!--            </div>-->
+<!--            <div class="col-md-3 col-sm-6 my-3">-->
+<!--                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>-->
+<!--            </div>-->
+<!--            <div class="col-md-3 col-sm-6 my-3">-->
+<!--                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>-->
+<!--            </div>-->
+<!--            <div class="col-md-3 col-sm-6 my-3">-->
+<!--                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!-- Contact-->
+
+<section class="page-section" id="procedures">
+    <div class="text-center">
+        <h2 class="section-heading text-uppercase">Процедуры и документация</h2>
+        <h3 class="section-subheading text-muted"></h3>
+    </div>
+    <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!-- Card 1: Benefits of Admission -->
+            <div class="col">
+                <div class="card lst">
+                    <img src="assets/img/benefits.png" class="card-img-top" alt="Benefits Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Преимущества при Поступлении</h5>
+                        <p class="card-text">
+                            Узнайте о различных преимуществах поступления в Международный университет Ала-Тоо. От
+                            стипендий до уникальных возможностей — мы предлагаем благоприятную среду для вашего
+                            образовательного пути.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Discounts for Applicants -->
+            <div class="col">
+                <div class="card lst">
+                    <img src="assets/img/discounts.png" class="card-img-top" alt="Discounts Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Скидки для Поступающих</h5>
+                        <p class="card-text">
+                            Узнайте о доступных скидках для абитуриентов, в том числе на основании академических
+                            достижений, успехов в конкурсах, семейного происхождения и т. д.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Bachelor's Degree in Computer Science and Engineering -->
+            <div class="col">
+                <div class="card lst">
+                    <img src="assets/img/cs.png" class="card-img-top" alt="Computer Science Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Бакалавр в области компьютерных наук</h5>
+                        <p class="card-text">
+                            Откройте для себя захватывающую область компьютерных наук и инженерии. Узнайте об учебной
+                            программе, факультетах и возможностях карьерного роста в этой программе.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4: Master's Program in Pedagogy -->
+            <div class="col">
+                <div class="card lst">
+                    <img src="assets/img/pedagogy.png" class="card-img-top" alt="Pedagogy Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Магистр Педагогики</h5>
+                        <p class="card-text">
+                            Повысьте свои навыки преподавания с помощью нашей магистерской программы по педагогике.
+                            Изучите передовые методики преподавания и лидерство в образовании.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section" id="general">
+    <div class="text-center">
+        <h2 class="section-heading text-uppercase">Общая информация</h2>
+        <h3 class="section-subheading text-muted"></h3>
+    </div>
+    <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!-- Card 1: Location of Ala Too University -->
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-map-marker-alt"></i> Расположение Университета Ала Тоо
+                        </h5>
+                        <p class="card-text">
+                            Откройте для себя оживленный город Бишкек, где расположен Международный университет Ала Тоо.
+                            Погрузитесь в культурно богатую среду и исследуйте кампус.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Duration of University Studies -->
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-hourglass-half"></i> Продолжительность обучения в
+                            университете</h5>
+                        <p class="card-text">
+                            Узнайте о типичной продолжительности обучения в Международном университете Ала Тоо.
+                            Исследуйте возможности и опыт, которые вас ждут во время обучения.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Interest for Entering University -->
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-percent"></i> Интерес к поступлению в университет</h5>
+                        <p class="card-text">
+                            Разберитесь в финансовом аспекте поступления в Международный университет Ала Тоо. Узнайте о
+                            необходимых процентах и деталях оплаты для новых студентов.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4: Language Taught in the College -->
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-language"></i> Язык обучения в колледже</h5>
+                        <p class="card-text">
+                            Узнайте язык обучения в колледже Международного университета Ала Тоо. Узнайте, как язык
+                            играет жизненно важную роль в вашем образовании и в будущей карьере.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section" id="contact">
+    <div class="container">
+        <!--        <div class="text-center">-->
+        <!--&lt;!&ndash;            <h2 class="section-heading text-uppercase">Contact Us</h2>&ndash;&gt;-->
+        <!--            &lt;!&ndash;            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>&ndash;&gt;-->
+        <!--        </div>-->
+        <div class="bg-box">
+
+            <div class="share-btn">
+                <span class="text-share-btn">Свяжитесь с Нами</span>
+                <ul class="share-items">
+                    <li><a href="https://www.instagram.com/alatoo.edu.kg/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://t.me/HIVA_2023"><i class="fab fa-telegram-plane"></i></a></li>
+                    <li><a href="https://wa.me/+996701600140"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Footer-->
+<footer class="footer py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-start">Copyright &copy; HIVA Inc. 2023</div>
+            <!--            <div class="col-lg-4 my-3 my-lg-0">-->
+            <!--                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>-->
+            <!--                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>-->
+            <!--                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>-->
+            <!--            </div>-->
+            <!--            <div class="col-lg-4 text-lg-end">-->
+            <!--                <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>-->
+            <!--                <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>-->
+            <!--            </div>-->
+        </div>
+    </div>
+</footer>
+<!-- Portfolio Modals-->
+<!-- Portfolio item 1 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                                                                  alt="Close modal"/>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..."/>
+                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                nostrum, reiciendis facere nemo!</p>
+                            <ul class="list-inline">
+                                <li>
+                                    <strong>Client:</strong>
+                                    Threads
+                                </li>
+                                <li>
+                                    <strong>Category:</strong>
+                                    Illustration
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio item 2 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                                                                  alt="Close modal"/>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..."/>
+                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                nostrum, reiciendis facere nemo!</p>
+                            <ul class="list-inline">
+                                <li>
+                                    <strong>Client:</strong>
+                                    Explore
+                                </li>
+                                <li>
+                                    <strong>Category:</strong>
+                                    Graphic Design
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio item 3 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                                                                  alt="Close modal"/>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..."/>
+                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                nostrum, reiciendis facere nemo!</p>
+                            <ul class="list-inline">
+                                <li>
+                                    <strong>Client:</strong>
+                                    Finish
+                                </li>
+                                <li>
+                                    <strong>Category:</strong>
+                                    Identity
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio item 4 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                                                                  alt="Close modal"/>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..."/>
+                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                nostrum, reiciendis facere nemo!</p>
+                            <ul class="list-inline">
+                                <li>
+                                    <strong>Client:</strong>
+                                    Lines
+                                </li>
+                                <li>
+                                    <strong>Category:</strong>
+                                    Branding
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio item 5 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                                                                  alt="Close modal"/>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..."/>
+                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                nostrum, reiciendis facere nemo!</p>
+                            <ul class="list-inline">
+                                <li>
+                                    <strong>Client:</strong>
+                                    Southwest
+                                </li>
+                                <li>
+                                    <strong>Category:</strong>
+                                    Website Design
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio item 6 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                                                                  alt="Close modal"/>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..."/>
+                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                nostrum, reiciendis facere nemo!</p>
+                            <ul class="list-inline">
+                                <li>
+                                    <strong>Client:</strong>
+                                    Window
+                                </li>
+                                <li>
+                                    <strong>Category:</strong>
+                                    Photography
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<div id="widget-background"
+     style="position: fixed; top: 0; left: 0; z-index: 999; background-color: black; opacity: 0.7; width: 100vw; height: 100vh; display: none;"></div>
+<iframe id="widget-app"
+        style="position: fixed; bottom: 30px; left: 10px; border-radius: 20px; border: none; z-index: 9999;"
+        src="https://hivaweb.github.io/widget/" title="HIVAWIDGET" width="122"
+        height="172" allowtransparency scrolling="no" seamless allow="microphone"></iframe>
+
+<script>
+    let widgetApp = document.getElementById('widget-app');
+    let widgetBackground = document.getElementById('widget-background');
+    let openWidget = false;
+
+    widgetApp.addEventListener('load', function () {
+        const iframeContentWindow = widgetApp.contentWindow;
+        const iframeDocument = iframeContentWindow.document;
+        const canvas = iframeDocument.querySelector('canvas');
+        widgetApp.contentWindow.switchLanguage("ru-RU");
+
+        canvas.addEventListener('click', function (event) {
+            if (!openWidget) {
+                widgetApp.width = "260px";
+
+                if (window.innerWidth < 600) {
+                    widgetApp.style.left = "calc(50% - 130px)";
+                    widgetApp.style.bottom = "50px";
+                }
+
+                widgetApp.height = "430px";
+                openWidget = true;
+                widgetApp.contentWindow.showModal();
+                widgetApp.contentWindow.sayHello();
+                widgetBackground.style.display = "block";
+            } else {
+                widgetApp.width = "120px";
+
+                if (window.innerWidth < 600) {
+                    widgetApp.style.left = "10px";
+                    widgetApp.style.bottom = "30px";
+                }
+
+                widgetApp.height = "170px";
+                openWidget = false;
+                widgetApp.contentWindow.hideModal();
+                widgetApp.contentWindow.stopRecognize();
+                widgetApp.contentWindow.clearAfterClose();
+                widgetBackground.style.display = "none";
+            }
+
+            widgetApp.contentWindow.document.body.style.width = widgetApp.width;
+            widgetApp.contentWindow.document.body.style.height = widgetApp.height;
+
+            event.stopPropagation();
+        });
+    });
+
+</script>
+</body>
+</html>
